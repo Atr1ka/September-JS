@@ -7,11 +7,10 @@
     - Engima M4
     - Engima D / K (functionally equivalent)
     - Swiss-K Enigma (Air force wirings as these are the only ones recovered)
-    - Norway Enigma **(BROKEN)**
-    - Sondermaschine (Special machine) **(BROKEN)**
+    - Norway Enigma 
+    - Sondermaschine (Special machine)
 
 
    
 # TODO
-1. Fix norway and sonder
 2. Add a graphic showing the step-by-step conversion
