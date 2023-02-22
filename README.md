@@ -13,4 +13,5 @@
 
    
 # TODO
+1. Improve UI
 2. Add a graphic showing the step-by-step conversion

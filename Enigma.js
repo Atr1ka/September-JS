@@ -1,6 +1,3 @@
-// norway broken
-// sonder is weird broken
-// others are good
 class Enigma {
     static machines = machines;
     #settings = {};
@@ -215,30 +212,3 @@ class Enigma {
         }
     }
 }
-
-
-
-/*
-// double stepping (probably a simpler way of doing this but just to get it working)
-if (this.#doubleStepNext) {
-    this.#doubleStepNext = false;
-    console.log(this.#toChar(positions[1]) + " " + this.#toChar(positions[2]) + " " + this.#toChar(positions[3]))
-    positions[3] = (positions[3] + 1) % 26;
-    positions[2] = (positions[2] + 1) % 26;
-    positions[1] = (positions[1] + 1) % 26;
-    this.#settings.positions = positions;
-    this.#settings.notches = notches;
-    console.log(this.#toChar(positions[1]) + " " + this.#toChar(positions[2]) + " " + this.#toChar(positions[3]))
-    return this.#settings;
-}
-if (notches[2].includes(positions[2]) && notches[3].includes(positions[3])) {
-    console.log(this.#toChar(positions[1]) + " " + this.#toChar(positions[2]) + " " + this.#toChar(positions[3]))
-    this.#doubleStepNext = true;
-    positions[3] = (positions[3] + 1) % 26;
-    positions[2] = (positions[2] + 1) % 26;
-    this.#settings.positions = positions;
-    this.#settings.notches = notches;
-    return this.#settings;
-}
-
-*/

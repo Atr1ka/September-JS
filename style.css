@@ -1,6 +1,9 @@
-input textarea{
-    text-align: center;
-}
-select{
+select, option, th, td{
     text-align-last: center;
+    text-align: center;
+    font: "Brush Script MT", "Lucida Handwriting", Cursive;
+    font-family: "Brush Script MT", "Lucida Handwriting", Cursive;
+}
+.settings{
+    width: 5;
 }

@@ -37,9 +37,9 @@
                         <table id="table" class="table"></table>
                     </div>
                     <div id="output" class="row" hidden>
-                        <textarea name="inputText" placeholder="Enter text to be encoded/decoded" rows="1" cols="30"></textarea>
-                        <button onclick="encode()" type="button">Encode</button>
-                        <textarea id="outputBox" placeholder="Ouput will be here" rows="1"></textarea>
+                        <textarea oninput="inputChange()" name="inputText" id="inputText" placeholder="Enter text to be encoded/decoded"></textarea>
+                        <br><br><br><br><br>
+                        <textarea id="outputBox" placeholder="Ouput will be here" rows="5" cols="30"></textarea>
                     </div>
             </form>
         </div>
