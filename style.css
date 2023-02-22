@@ -4,6 +4,12 @@ select, option, th, td{
     font: "Brush Script MT", "Lucida Handwriting", Cursive;
     font-family: "Brush Script MT", "Lucida Handwriting", Cursive;
 }
+::-webkit-input-placeholder {
+text-align: center;
+}
+:-moz-placeholder {
+text-align: center;
+}
 .settings{
     width: 5;
 }
